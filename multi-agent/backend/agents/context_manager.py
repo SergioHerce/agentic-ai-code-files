@@ -3,7 +3,7 @@ class ContextManager:
     def __init__(self):
         self.history = []
 
-    def add_interaction(self, interaction:str):
+    def add_interaction(self, interaction: str):
         self.history.append(interaction)
 
     def ger_context(self) -> str:
