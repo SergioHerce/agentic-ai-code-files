@@ -6,7 +6,7 @@ class ContextManager:
     def add_interaction(self, interaction: str):
         self.history.append(interaction)
 
-    def ger_context(self) -> str:
+    def get_context(self) -> str:
         return "\n".join(self.history)
 
 
